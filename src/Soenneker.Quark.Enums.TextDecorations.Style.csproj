@@ -44,6 +44,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Quark.Enums.GlobalKeywords" Version="3.0.1" />
+        <PackageReference Include="Soenneker.Quark.Enums.GlobalKeywords" Version="3.0.2" />
     </ItemGroup>
 </Project>
