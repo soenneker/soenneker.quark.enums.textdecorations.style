@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.TextDecorations.Style;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// CSS text decoration keywords in enumeration form.
