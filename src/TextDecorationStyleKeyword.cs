@@ -6,7 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// CSS text decoration keywords in enumeration form.
 /// </summary>
 [Intellenum<string>]
-public partial class TextDecorationStyleKeywordKeyword
+public partial class TextDecorationStyleKeyword
 {
     /// <summary>
     /// Draws a single line segment.
