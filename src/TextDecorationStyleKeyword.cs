@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Quark.Enums;
 
 /// <summary>
 /// CSS text decoration keywords in enumeration form.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public partial class TextDecorationStyleKeyword
 {
     /// <summary>
