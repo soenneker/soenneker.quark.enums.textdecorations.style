@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -46,6 +46,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Quark.Enums.GlobalKeywords" Version="4.0.15" />
+        <PackageReference Include="Soenneker.Quark.Enums.GlobalKeywords" Version="4.0.16" />
     </ItemGroup>
 </Project>

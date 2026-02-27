@@ -6,6 +6,7 @@ namespace Soenneker.Quark.Enums;
 /// CSS text decoration keywords in enumeration form.
 /// </summary>
 [EnumValue<string>]
+[IncludeEnumValues(typeof(GlobalKeyword))]
 public partial class TextDecorationStyleKeyword
 {
     /// <summary>
@@ -33,6 +34,4 @@ public partial class TextDecorationStyleKeyword
     /// Draws a wavy line.
     /// </summary>
     public static readonly TextDecorationStyleKeyword Wavy = new("wavy");
-
-    public static implicit operator TextDecorationStyleKeyword(GlobalKeyword style) => new(style.Value); // Value is the underlying string
 }
